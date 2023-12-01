@@ -1,0 +1,13 @@
+version: "3.4"
+services:
+  sfc-loader:
+    container_name: sfc-loader
+    build:
+      context: .
+      dockerfile: Dockerfile.yaml
+    working_dir: /app
+    ports:
+      - 8080:8080
+    volumes:
+      - ./:/app
+    tty: true
