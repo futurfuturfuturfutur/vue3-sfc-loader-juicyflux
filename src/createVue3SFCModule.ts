@@ -79,7 +79,11 @@ export async function createSFCModule(source : string, filename : AbstractPath, 
 
 	const customBlockCallbacks : CustomBlockCallback[] = customBlockHandler !== undefined ? await Promise.all( descriptor.customBlocks.map((block) => customBlockHandler(block, filename, options)) ) : [];
 
-	const componentHash = hash(strFilename, version, targetBrowserBabelPluginsHash);
+	const componentHash = "xxxxxxxx".replace(/[xy]/g, (c) => {
+		const r = (Math.random() * 16) | 0;
+		const v = c === "x" ? r : (r & 0x3) | 0x8;
+		return v.toString(16);
+	  });
 	const scopeId = `data-v-${componentHash}`;
 
 	const hasScoped = descriptor.styles.some(e => e.scoped);
