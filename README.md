@@ -1,4 +1,4 @@
-# vue3-sfc-loader
+# vue3-sfc-loader-juicyflux
 
 ###### [API](docs/api/README.md#loadmodule) | [FAQ](docs/faq.md) | [Examples](docs/examples.md) | [dist](#dist) | [Roadmap](../../issues/1)
 
@@ -100,7 +100,7 @@ Load .vue files dynamically at runtime from your html/js. No node.js environment
 
 
   ![Vue3](https://img.shields.io/github/package-json/dependency-version/FranckFreiburger/vue3-sfc-loader/dev/@vue/compiler-sfc?label=For%20Vue%203)
-  - `npm install vue3-sfc-loader`
+  - `npm install vue3-sfc-loader-juicyflux`
   - [jsDelivr](https://www.jsdelivr.com/package/npm/vue3-sfc-loader?path=dist) CDN: https://cdn.jsdelivr.net/npm/vue3-sfc-loader/dist/vue3-sfc-loader.js
   - [UNPKG](https://unpkg.com/browse/vue3-sfc-loader/dist/) CDN: https://unpkg.com/vue3-sfc-loader
 
@@ -110,7 +110,7 @@ Load .vue files dynamically at runtime from your html/js. No node.js environment
   <br>
 
   ![Vue2](https://img.shields.io/github/package-json/dependency-version/FranckFreiburger/vue3-sfc-loader/dev/vue-template-compiler?label=For%20Vue%202)
-  - `npm install vue3-sfc-loader` (use 'vue3-sfc-loader/dist/vue2-sfc-loader.js')
+  - `npm install vue3-sfc-loader-juicyflux` (use 'vue3-sfc-loader/dist/vue2-sfc-loader.js')
   - [jsDelivr](https://www.jsdelivr.com/package/npm/vue3-sfc-loader?path=dist) CDN: https://cdn.jsdelivr.net/npm/vue3-sfc-loader/dist/vue2-sfc-loader.js
   - [UNPKG](https://unpkg.com/browse/vue3-sfc-loader/dist/) CDN: https://unpkg.com/vue3-sfc-loader/dist/vue2-sfc-loader.js
   
